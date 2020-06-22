@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Sabrina Susmi | Portfolio</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+	<link href="https://fonts.googleapis.com/css?family=Dosis:300,400,900|Lato:300,400,900&display=swap" rel='stylesheet'>
+
+	<script src="https://kit.fontawesome.com/00fb7c4cdb.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+</head>
+<body>
+	<div class="container">
+	<header>
+		<div class="logo">
+			<img src="images/Logo2.png" alt="logo">
+		</div>
+		<button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+				<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Introduction -->
+	<section class="intro" id="home">
+		<h1 class="section__title section__title--intro">
+			Hi, I am <strong>Sabrina Susmi</strong>
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">Front-end web developer</p>
+		<p class="section__underline--intro"></p>
+		<img src="images/proPic2.jpg" alt="a picture of sabrina" class="intro__img">
+		<span class="intro__contact"><a href="mailto:sabrina.su512@gmail.com">Get in Touch</a></span>
+	</section>
+
+
+	<!-- My services -->
+	<section class="my-services" id="services">
+		<h2 class="section__title section__title--services">What I do</h2>
+		<div class="services">
+			<div class="service">
+				<h3>Web Designer + Developer</h3>
+				<p>I am mainly a front-end web developer with enough knowledge in back-end. I love working on interesting and meaningful projects. Also focusing on Android app development.</p>
+			</div>  <!-- /service -->
+
+			<div class="service">
+				<h3>Skills</h3>
+				<ul class="service__list">
+					<li class="service__item">
+						<i class="fab fa-html5"></i>
+					</li>
+					<li class="service__item">
+						<i class="fab fa-css3-alt"></i>
+					</li>
+					<li class="service__item">
+						<i class="fab fa-js"></i>
+					</li>
+					<li class="service__item">
+						<i class="fab fa-git"></i>
+					</li>
+					<li class="service__item">
+						<i class="fab fa-node-js"></i>
+					</li>
+					<li class="service__item">
+						<i class="fab fa-wordpress"></i>
+					</li>
+					<li class="service__item">
+						<i class="fab fa-adobe"></i>
+					</li>
+					<li class="service__item">
+						<i class="fab fa-bootstrap"></i>
+					</li>
+				</ul>
+			</div>  <!-- /service -->
+		</div>   <!-- /services -->
+
+		<a href="#work" class="btn">My Work</a>
+	</section>
+
+
+	<!-- About me -->
+	<section class="about-me" id="about">
+		<h2 class="section__title section__title--about">Who I Am</h2>
+		<p class="section__subtitle section__subtitle--about">Software Engineering undergrad at IUT, Bangladesh</p>
+		<p class="section__underline--about"></p>
+
+		<div class="about-me__body">
+			<p>Currently I am a student and a freelancer. Mainly focusing on web development. Also I have worked on some small everyday Android Apps and a PC App for Inventory Management.</p>
+			<p>I have completed 2 specialization courses from Coursera and Udemy on web development.</p>
+		</div>
+
+		<img src="images/proPic.jpg" alt="picture of sabrina" class="about-me__img">
+	</section>
+
+
+	<!-- My work -->
+	<section class="my-work" id="work">
+		<h2 class="section__title--work">My Work</h2>
+		<p class="section__subtitle--work">Some of my projects</p>
+
+		<div class="portfolio">
+			<div class="col">  <!-- col 1 -->
+				<div class="portfolio__item">
+					<img src="images/base-apparel.jpg" alt="" id="p1" class="portfolio__img">
+					<div class="portfolio__picOverlay" >
+						<span class="col__span">
+							<i class="fas fa-eye"></i>
+							<a href="https://sabrinasusmi.github.io/Base-Apparel-ComingSoon-Project/base-apparel-coming-soon/index.html">View Site</a>
+						</span>
+						<span class="col__span">
+							<i class="fab fa-github"></i>
+							<a href="https://github.com/SabrinaSusmi/Base-Apparel-ComingSoon-Project/tree/master/base-apparel-coming-soon">View Code</a>
+						</span>
+					</div>
+				</div>
+			</div>  <!-- col 1 ends -->
+
+
+			<div class="col">  <!-- col 2 -->
+				<div class="portfolio__item">
+					<img src="images/sign-up.jpg" alt="" class="portfolio__img">
+					<div class="portfolio__picOverlay" onmouseover="portDecor()" onmouseout="decorNone()">
+						<span class="col__span">
+							<i class="fas fa-eye"></i>
+							<a href="https://sabrinasusmi.github.io/Intro-Sign-Up-Project/intro-component-with-signup-form/index.html">View Site</a>
+						</span>
+						<span class="col__span">
+							<i class="fab fa-github"></i>
+							<a href="https://github.com/SabrinaSusmi/Intro-Sign-Up-Project/tree/master/intro-component-with-signup-form">View Code</a>
+						</span>
+					</div>
+				</div>
+
+				<div class="portfolio__item">
+					<img src="images/four-card.jpg" alt="" class="portfolio__img">
+					<div class="portfolio__picOverlay" onmouseover="portDecor()" onmouseout="decorNone()">
+						<span class="col__span">
+							<i class="fas fa-eye"></i>
+							<a href="https://sabrinasusmi.github.io/Four-Card-Feature-Project/four-card-feature-section/index.html">View Site</a>
+						</span>
+						<span class="col__span">
+							<i class="fab fa-github"></i>
+							<a href="https://github.com/SabrinaSusmi/Four-Card-Feature-Project/tree/master/four-card-feature-section">View Code</a>
+						</span>
+					</div>
+				</div>
+				
+			</div>  <!-- col 2 ends -->
+
+
+			<div class="col"> <!-- col 3 -->
+				<div class="portfolio__item">
+					<img src="images/bootcamp.jpg" alt="" class="portfolio__img" onmouseover="overlay()">
+					<div class="portfolio__picOverlay">
+						<span class="col__span">
+							<i class="fas fa-eye"></i>
+							<a href="https://sabrinasusmi.github.io/Bootcamp-Testimonial-Slider-Project/coding-bootcamp-testimonials-slider/index.html">View Site</a>
+						</span>
+						<span class="col__span">
+							<i class="fab fa-github"></i>
+							<a href="https://github.com/SabrinaSusmi/Bootcamp-Testimonial-Slider-Project/tree/master/coding-bootcamp-testimonials-slider">View Code</a>
+						</span>
+					</div>
+				</div>
+			</div>   <!-- col 3 ends -->
+
+
+				<!-- <a href="https://sabrinasusmi.github.io/Bootcamp-Testimonial-Slider-Project/coding-bootcamp-testimonials-slider/index.html" class="portfolio__item">
+					<img src="images/bootcamp.jpg" alt="" class="portfolio__img">
+				</a> -->
+
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer class="footer" id="contact">
+		<a href="mailto:sabrina.su512@gmail.com" class="footer__link">sabrina.su512@gmail.com</a>
+		<ul class="social-list">
+			<!-- <li class="social-list__item">
+				<a class="social-list__link" href="#">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+
+			<li class="social-list__item">
+				<a class="social-list__link" href="#">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</li>
+
+			<li class="social-list__item">
+				<a class="social-list__link" href="#">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</li> -->
+
+			<li class="social-list__item">
+				<a class="social-list__link" href="#">
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+			</li>
+
+			<li class="social-list__item">
+				<a class="social-list__link" href="#">
+					<i class="fab fa-github"></i>
+				</a>
+			</li>
+		</ul>
+	</footer>
+</div>
+
+
+	<script src="Js/index.js"></script>
+
+</body>
+</html>
